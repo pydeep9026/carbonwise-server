@@ -1,0 +1,30 @@
+{
+  "name": "carbonwise",
+  "version": "1.0.0",
+  "description": "a eco-friendly marketplace that sells products with lower carbon footprint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"  
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pydeep9026/carbonwise-server.git"
+  },
+  "author": "pradeep singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pydeep9026/carbonwise-server/issues"
+  },
+  "homepage": "https://github.com/pydeep9026/carbonwise-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4",
+    "nodemon": "^2.0.20"
+  }
+}
